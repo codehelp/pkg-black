@@ -7,11 +7,12 @@
 
 [tool.black]
 line-length = 88
-py36 = true
+target_version = ['py36', 'py37', 'py38']
 include = '\.pyi?$'
 exclude = '''
 /(
-    \.git
+    \.eggs
+  | \.git
   | \.hg
   | \.mypy_cache
   | \.tox
@@ -34,7 +35,7 @@ exclude = '''
 
 [tool.poetry]
 name = "black"
-version = "18.9b0"
+version = "19.3b0"
 description = "The uncompromising code formatter."
 readme = "README.md"
 authors = [
@@ -69,7 +70,7 @@ black = "black:main"
 
 [tool.poetry.dependencies]
 python = "^3.6"
-attrs = "^17.4"
+attrs = "^18.1"
 click = "^6.5"
 toml = "^0.9.4"
 appdirs = "^1.4"
