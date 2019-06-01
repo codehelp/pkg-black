@@ -1,3 +1,9 @@
+black (19.3b0-2) unstable; urgency=medium
+
+  * Migrate into unstable
+
+ -- Neil Williams <codehelp@debian.org>  Sun, 26 May 2019 13:51:52 +0100
+
 black (19.3b0-1~exp1) experimental; urgency=medium
 
   * New upstream release (Closes: #926155)
