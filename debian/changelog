@@ -1,8 +1,8 @@
-black (19.3b0-2) unstable; urgency=medium
+black (19.3b0-1) unstable; urgency=medium
 
-  * Migrate into unstable
+  * Upload into unstable
 
- -- Neil Williams <codehelp@debian.org>  Sun, 26 May 2019 13:51:52 +0100
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 07 Jul 2019 09:50:01 +0200
 
 black (19.3b0-1~exp1) experimental; urgency=medium
 
