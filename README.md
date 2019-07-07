@@ -1,5 +1,3 @@
-Packaging moved: https://salsa.debian.org/python-team/applications/black
-
 ![Black Logo](https://raw.githubusercontent.com/ambv/black/master/docs/_static/logo2-readme.png)
 <h2 align="center">The Uncompromising Code Formatter</h2>
 
