@@ -6,9 +6,11 @@ Description: Remove privacy-breach links and self-host docs
 Author: Neil Williams <codehelp@debian.org>
 ---
 
---- black-18.6b4.orig/README.md
-+++ black-18.6b4/README.md
-@@ -2,13 +2,10 @@
+Index: pkg-black/README.md
+===================================================================
+--- pkg-black.orig/README.md
++++ pkg-black/README.md
+@@ -4,13 +4,10 @@ Packaging moved: https://salsa.debian.or
  <h2 align="center">The Uncompromising Code Formatter</h2>
  
  <p align="center">
@@ -22,7 +24,7 @@ Author: Neil Williams <codehelp@debian.org>
  </p>
  
  > “Any color you like.”
-@@ -883,18 +880,11 @@ and [`pipenv`](https://docs.pipenv.org/)
+@@ -917,18 +914,11 @@ and [`pipenv`](https://docs.pipenv.org/)
  
  Use the badge in your project's README.md:
  
@@ -43,8 +45,10 @@ Author: Neil Williams <codehelp@debian.org>
  
  ## License
  
---- black-18.6b4.orig/docs/conf.py
-+++ black-18.6b4/docs/conf.py
+Index: pkg-black/docs/conf.py
+===================================================================
+--- pkg-black.orig/docs/conf.py
++++ pkg-black/docs/conf.py
 @@ -12,6 +12,11 @@
  # add these directories to sys.path here. If the directory is relative to the
  # documentation root, use os.path.abspath to make it absolute, like shown here.
