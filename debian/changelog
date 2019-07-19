@@ -1,3 +1,9 @@
+black (19.3b0-2) UNRELEASED; urgency=medium
+
+  * Use debhelper-compat instead of debian/compat.
+
+ -- Ondřej Nový <onovy@debian.org>  Sat, 20 Jul 2019 00:38:15 +0200
+
 black (19.3b0-1) unstable; urgency=medium
 
   * Upload into unstable

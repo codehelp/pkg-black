@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Neil Williams <codehelp@debian.org>,
  Sylvestre Ledru <sylvestre@debian.org>
-Build-Depends: debhelper (>= 11), dh-python,
+Build-Depends: debhelper-compat (= 11), dh-python,
  python3, python3-recommonmark, python3-setuptools,
  python3-appdirs, python3-attr, python3-click,
  python3-toml, python3-sphinx, python3-docutils,
