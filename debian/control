@@ -20,17 +20,17 @@ Architecture: all
 Depends: python3-pkg-resources, ${python3:Depends}, ${misc:Depends}
 Suggests: python-black-doc
 Description: uncompromising Python code formatter (Python 3)
- Black is the uncompromising Python code formatter. By using it, you 
- agree to cede control over minutiae of hand-formatting. In return, 
- Black gives you speed, determinism, and freedom from pycodestyle 
- nagging about formatting. You will save time and mental energy for 
+ Black is the uncompromising Python code formatter. By using it, you
+ agree to cede control over minutiae of hand-formatting. In return,
+ Black gives you speed, determinism, and freedom from pycodestyle
+ nagging about formatting. You will save time and mental energy for
  more important matters.
  .
- Blackened code looks the same regardless of the project you're reading. 
- Formatting becomes transparent after a while and you can focus on the 
+ Blackened code looks the same regardless of the project you're reading.
+ Formatting becomes transparent after a while and you can focus on the
  content instead.
  .
- Black makes code review faster by producing the smallest diffs 
+ Black makes code review faster by producing the smallest diffs
  possible.
 
 Package: python-black-doc
@@ -41,6 +41,6 @@ Description: uncompromising Python code formatter (common documentation)
  Black is the uncompromising Python code formatter. This package contains
  the documentation for applying black to your code.
  .
- Blackened code looks the same regardless of the project you're reading. 
- Formatting becomes transparent after a while and you can focus on the 
+ Blackened code looks the same regardless of the project you're reading.
+ Formatting becomes transparent after a while and you can focus on the
  content instead.
